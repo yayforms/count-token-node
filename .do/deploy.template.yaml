@@ -5,7 +5,7 @@ spec:
   functions:
   - git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-functions-nodejs-qrcode
+      repo_clone_url: https://github.com/yayforms/count-token-node
     name: qrcode
     routes:
     - path: /api
@@ -20,7 +20,7 @@ spec:
       value: ${qrcode.PUBLIC_URL}
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-functions-nodejs-qrcode
+      repo_clone_url: https://github.com/yayforms/count-token-node
     name: qrcode-ui
     output_dir: dist
     routes:
